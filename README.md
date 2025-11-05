@@ -74,7 +74,7 @@ Note that most of these components can be found inside a full hoverboard so you 
 | Device | Connection | Notes |
 |--------|-------------|-------|
 | Hoverboard motherboard | UART (16/17) | Controlled via serial commands |
-| ESC (cutting motor) | PWM (25) | Standard servo-type signal |
+| ESC (cutting motor) | PWM (5) | Standard servo-type signal |
 | Ultrasonic sensors | GPIOs (see pinout) | Non-blocking measurement using `millis()` |
 | ESP32 logic level | 5V | Powered from 5 V regulator (BEC or DC-DC buck) |
 
